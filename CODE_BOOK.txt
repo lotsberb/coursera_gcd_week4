@@ -1,0 +1,11 @@
+FILE: mean_stddev_output.txt
+- All columns with headers containing "mean()" or "std()" are direct copies of the variables described in the features_info.txt file in the original UCI HAR dataset, although this output file only contains a subset of the columns - those containing mean or standard deviation data.
+- activity : this column contains a text string describing the activity being performed at the time the measurement for that row was taken
+- subject : this column contains a numeric identifier of which subject the data in that row pertains to
+
+
+FILE: mean_stddev_averages.txt
+- All columns headers containing "mean()" or "std()" are direct copies of the variable names described in the features_info.txt file in the original UCI HAR dataset, but as indicated by the name of this output file, the columns contain averages of multiple readings rather than data directly copied from the original sources.
+- Values in the above described columns consist of the average value of all readings taken for that variable type, for a particular activity+subject combination
+- activity : this column contains a text string describing the activity that row's data pertains to
+- subject : this column contains a numeric identifier of which subject the data in that row pertains to
